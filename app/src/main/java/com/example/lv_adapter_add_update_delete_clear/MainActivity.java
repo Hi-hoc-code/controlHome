@@ -42,8 +42,7 @@ public class MainActivity extends AppCompatActivity {
         sinhVienArrayList=new ArrayList<>();
         sinhVienArrayList.add(new SinhVien("Nguyen Van A", 1990));
         sinhVienArrayList.add(new SinhVien("Nguyen Van B", 1991));
-        sinhVienArrayList.add(new SinhVien("Nguyen Van C", 1992));
-        sinhVienArrayList.add(new SinhVien("Nguyen Van D", 1993));
+        sinhVienArrayList.add(new SinhVien("Nguyen Van E", 1994));
         SinhVienAdapter sinhVienAdapter = new SinhVienAdapter(MainActivity.this, R.layout.layout_item_sinh_vien,sinhVienArrayList);
         lvSinhVien.setAdapter(sinhVienAdapter);
 
