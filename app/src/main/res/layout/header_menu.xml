@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#C6B289">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="75dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+        <ImageView
+            android:src="@drawable/anh"
+            android:fitsSystemWindows="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#ff00"/>
+</LinearLayout>

@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">lv_adapter_add_update_delete_clear</string>
+    <string name="app_name">BFT_VIETNAME</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
 </resources>

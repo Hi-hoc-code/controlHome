@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/login"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chào mừng"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#333"
+        android:layout_marginTop="70dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lựa chọn phương thức để truy cập ứng dụng"
+        android:layout_marginTop="30dp"
+        android:textColor="#302F2F"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E3DFDF"
+        android:text="Đăng kí"
+        android:textColor="#ff00"
+        android:textStyle="bold"
+        app:cornerRadius="12dp"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff00"
+        android:text="Đăng nhập"
+        android:textStyle="bold"
+        app:cornerRadius="12dp"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:id="@+id/btnNextLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bỏ qua đăng nhập"
+        android:textColor="#A8A5A5"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
