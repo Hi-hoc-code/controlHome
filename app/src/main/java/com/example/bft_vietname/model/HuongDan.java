@@ -1,19 +1,19 @@
 package com.example.bft_vietname.model;
 
 public class HuongDan {
-    private int id;
-    private String  img;
-    private String title;
+    public int id;
+    public String img_ki_thuat;
+    public String discription;
 
     public HuongDan(int id, String img, String title) {
         this.id = id;
-        this.img = img;
-        this.title = title;
+        this.img_ki_thuat = img;
+        this.discription = title;
     }
 
     public HuongDan(String img, String title) {
-        this.img = img;
-        this.title = title;
+        this.img_ki_thuat = img;
+        this.discription = title;
     }
 
     public HuongDan() {
@@ -27,19 +27,19 @@ public class HuongDan {
         this.id = id;
     }
 
-    public String getImg() {
-        return img;
+    public String getImg_ki_thuat() {
+        return img_ki_thuat;
     }
 
-    public void setImg(String img) {
-        this.img = img;
+    public void setImg_ki_thuat(String img_ki_thuat) {
+        this.img_ki_thuat = img_ki_thuat;
     }
 
-    public String getTitle() {
-        return title;
+    public String getDiscription() {
+        return discription;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setDiscription(String discription) {
+        this.discription = discription;
     }
 }

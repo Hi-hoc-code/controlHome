@@ -36,8 +36,8 @@ public class RecycleKiThuatAdapter extends RecyclerView.Adapter<RecycleKiThuatAd
     @Override
     public void onBindViewHolder(@NonNull MyViewHoler holder, int position) {
         HuongDan u = list.get(position);
-        Picasso.get().load(u.getImg()).into(holder.imgKiThuat);
-        holder.tvTitleKiThuat.setText(u.getTitle());
+        Picasso.get().load(u.img_ki_thuat).into(holder.imgKiThuat);
+        holder.tvTitleKiThuat.setText(u.discription);
 
     }
     @Override
@@ -46,8 +46,8 @@ public class RecycleKiThuatAdapter extends RecyclerView.Adapter<RecycleKiThuatAd
     }
 
     public static class MyViewHoler extends RecyclerView.ViewHolder{
-        ImageView imgKiThuat;
-        TextView tvTitleKiThuat;
+        public ImageView imgKiThuat;
+        public TextView tvTitleKiThuat;
 
         public MyViewHoler(View view){
             super(view);
