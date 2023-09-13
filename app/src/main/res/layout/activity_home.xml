@@ -265,6 +265,7 @@
                         android:textColor="#ff00"/>
                 </LinearLayout>
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcvKiThuat"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_marginTop="12dp"/>

@@ -1,36 +1,37 @@
 package com.example.bft_vietname.model;
 
-import android.graphics.Bitmap;
-
-public class HuongDanKiThuat {
+public class HuongDan {
     private int id;
-    private Bitmap  img;
+    private String  img;
     private String title;
 
-    public HuongDanKiThuat(int id, Bitmap img, String title) {
+    public HuongDan(int id, String img, String title) {
         this.id = id;
         this.img = img;
         this.title = title;
     }
-    public HuongDanKiThuat(Bitmap img, String title) {
+
+    public HuongDan(String img, String title) {
         this.img = img;
         this.title = title;
     }
 
+    public HuongDan() {
+    }
 
     public int getId() {
-        return id   ;
+        return id;
     }
 
     public void setId(int id) {
         this.id = id;
     }
 
-    public Bitmap getImg() {
+    public String getImg() {
         return img;
     }
-        
-    public void setImg(Bitmap img) {
+
+    public void setImg(String img) {
         this.img = img;
     }
 
